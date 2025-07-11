@@ -6,7 +6,18 @@ This project uses the KNN algorithm to predict diabetes based on medical attribu
 
 ## 🧠 Model Explanation
 
-KNN is a non-parametric method that classifies new points based on the majority label of their k-nearest neighbors in the training data.
+KNN is a supervised machine learning algorithm used for classification (and sometimes regression). 
+
+It works based on similarity — it looks at the K closest data points in the training set and uses majority voting to assign a label.
+
+📌 Key Ideas:
+
+It doesn't learn from training data explicitly (it's lazy learning).
+
+It uses a distance metric (like Euclidean distance) to find the closest neighbors.
+
+It is simple and intuitive, but can be slow on large datasets.
+
 
 ## ✅ Benefits
 
